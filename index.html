@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Space+Grotesk:wght@300..700&family=Teko:wght@300..700&family=Tektur:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <div class="logo">
+            <div class="name">
+                CASIO
+            </div>
+            <div class="code-cal">
+                fx-580VNX
+            </div>
+        </div>
+        <div class="container">
+            <div class="results">
+                <input type="text" id="resultsInput" class="result" readonly>
+            </div>
+        
+            <div class="buttons">
+                <button class="btn-number blue" onclick="buttonHandler(this)">DEL</button>
+                <button class="btn-number orange" onclick="buttonHandler(this)">AC</button>
+                <button class="btn-number" onclick="buttonHandler(this)">0</button>
+                <button class="btn-number" onclick="buttonHandler(this)">+</button>
+            </div>
+        
+            <div class="buttons">
+                <button class="btn-number" onclick="buttonHandler(this)">1</button>
+                <button class="btn-number" onclick="buttonHandler(this)">2</button>
+                <button class="btn-number" onclick="buttonHandler(this)">3</button>
+                <button class="btn-number" onclick="buttonHandler(this)">-</button>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-number" onclick="buttonHandler(this)">4</button>
+                <button class="btn-number" onclick="buttonHandler(this)">5</button>
+                <button class="btn-number" onclick="buttonHandler(this)">6</button>
+                <button class="btn-number" onclick="buttonHandler(this)">x</button>
+            </div>
+        
+            <div class="buttons">
+                <button class="btn-number" onclick="buttonHandler(this)">7</button>
+                <button class="btn-number" onclick="buttonHandler(this)">8</button>
+                <button class="btn-number" onclick="buttonHandler(this)">9</button>
+                <button class="btn-number" onclick="buttonHandler(this)">:</button>
+            </div>
+        
+            <div class="buttons">
+                <button class="btn-number green" onclick="buttonHandler(this)">=</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
